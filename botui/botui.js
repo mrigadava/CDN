@@ -60,17 +60,22 @@ var other = function() {
     }).then(function() {
         return botui.message.bot({
             delay: 1500,
-            content: "Sarnath 印地语为“Sārnāth”"
+            content: "Sarnath印地语为Sārnāth"
         })
     }).then(function() {
         return botui.message.bot({
             delay: 1500,
-            content: "源自梵语 सरङ्गनाद，saraṅga-nāthá，意为“鹿王”"
+            content: "源自梵语सरङ्गनाद，saraṅga-nāthá，意为鹿王" 
         })
     }).then(function() {
         return botui.message.bot({
             delay: 1500,
-            content: "Sarnath 中文译为“鹿野苑”，根据《佛国记》的记述，佛祖的前世迦叶佛（辟支佛）居住于此并有野鹿经常出没，故而得名“鹿野苑”"
+            content: "Sarnath中文译为鹿野苑"
+        })
+    }).then(function() {
+        return botui.message.bot({
+            delay: 1500,
+            content: "根据《佛国记》的记述，佛祖的前世迦叶佛（辟支佛）居住于此并有野鹿经常出没，故而得名“鹿野苑”"
         })
     }).then(function() {
         return botui.message.bot({
@@ -93,7 +98,7 @@ var other = function() {
 	}).then(function(res) {
         return botui.message.bot({
             delay: 1500,
-            content: "最重要的是 deerpark.com和sarnath.com已被注册了🤣"
+            content: "最重要的是sarnath的gTLD都被注册了🤣，只能注册New gTLD啦"
         })
     }).then(function() {
         return botui.action.button({
