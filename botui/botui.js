@@ -59,13 +59,13 @@ var other = function() {
         content: "😛 "
     }).then(function() {
         return botui.message.bot({
-            delay: 2000,
+            delay: 3000,
             content: "Sarnath印地语为Sārnāth"
         })
     }).then(function() {
         return botui.message.bot({
-            delay: 2000,
-            content: "源自梵语सरङ्गनाद，saraṅga-nāthá，意为鹿王" 
+            delay: 3500,
+            content: "源自梵语 सरङ्गनाद，saraṅga-nāthá，意为鹿王" 
         })
     }).then(function() {
         return botui.message.bot({
@@ -116,7 +116,7 @@ var other = function() {
     }).then(function(res) {
         return botui.message.bot({
             delay: 1500,
-            content: "更多的信息可以查看网站关于页面 https://sarnathh.site/about-sarnath/"
+            content: "更多的信息可以查看网站关于页面 https://sarnath.site/about-sarnath/"
         })
     }).then(function(res) {
         return botui.message.bot({
