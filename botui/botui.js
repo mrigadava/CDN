@@ -59,32 +59,32 @@ var other = function() {
         content: "😛 "
     }).then(function() {
         return botui.message.bot({
-            delay: 1500,
+            delay: 2000,
             content: "Sarnath印地语为Sārnāth"
         })
     }).then(function() {
         return botui.message.bot({
-            delay: 1500,
+            delay: 2000,
             content: "源自梵语सरङ्गनाद，saraṅga-nāthá，意为鹿王" 
         })
     }).then(function() {
         return botui.message.bot({
-            delay: 1500,
+            delay: 2500,
             content: "Sarnath中文译为鹿野苑"
         })
     }).then(function() {
         return botui.message.bot({
-            delay: 1500,
+            delay: 2500,
             content: "根据《佛国记》的记述，佛祖的前世迦叶佛（辟支佛）居住于此并有野鹿经常出没，故而得名“鹿野苑”"
         })
     }).then(function() {
         return botui.message.bot({
-            delay: 1500,
+            delay: 2000,
             content: "鹿野苑位于印度北方邦瓦拉纳西以北约10公里处，旧称伽尸国，近世称为贝那拉斯（Benares），即今之瓦拉那西（Varanasi）"
         })
     }).then(function() {
         return botui.action.button({
-            delay: 1500,
+            delay: 2500,
             action: [{
                 text: "为什么选sarnaths.site作为域名呢？ 🤨",
                 value: "next"
@@ -97,7 +97,7 @@ var other = function() {
         })
 	}).then(function(res) {
         return botui.message.bot({
-            delay: 1500,
+            delay: 2000,
             content: "最重要的是sarnath的gTLD都被注册了🤣，只能注册New gTLD啦"
         })
     }).then(function() {
@@ -110,13 +110,13 @@ var other = function() {
         })
     }).then(function(res) {
         return botui.message.bot({
-            delay: 1500,
+            delay: 3000,
             content: "码对话很累的 😈"
         })
     }).then(function(res) {
         return botui.message.bot({
             delay: 1500,
-            content: "更多的信息可以查看网站关于页面 https://www.sarnathh.site/about-sarnath/"
+            content: "更多的信息可以查看网站关于页面 https://sarnathh.site/about-sarnath/"
         })
     }).then(function(res) {
         return botui.message.bot({
