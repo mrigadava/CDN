@@ -48,7 +48,7 @@ botui.message.bot({
     if (res.value == "gg") {
         return botui.message.bot({
             delay: 1500,
-            content: "![告辞](https://cdn.nlark.com/yuque/0/2020/jpeg/1030718/1584343162870-dc6fc4df-ab70-425c-b7e1-4b86721518f8.jpeg)"
+            content: "![告辞](https://cdn.jsdelivr.net/gh/mrigadava/CDN@2.27/img/bye.jpeg)"
         })
     }
 });
